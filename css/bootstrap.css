@@ -260,19 +260,6 @@ th {
     border: 1px solid #ddd !important;
   }
 }
-/* added by anchal */
-.image {
-    background-image: url(../images/Cricket_ball_on_grass.jpg);
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    
-}
-.image-lighter {
-    height: 100%;
-    width: 100%;
-    opacity: 0.45;
-}
 
 @font-face {
   font-family: 'Glyphicons Halflings';

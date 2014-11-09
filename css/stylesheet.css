@@ -1,0 +1,45 @@
+/* added by anchal */
+.image {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    
+}
+.login-page{
+    background-image: url(../images/cricket-live-updates-app-1408340387.jpg);
+}
+.other-pages {
+    background-image: url(../images/Cricket_ball_on_grass_new.jpg);
+}
+.image-lighter {
+    opacity: 0.45;
+}
+
+div p {
+    margin: 30px 40px;
+    font-weight: bold;
+    color: #000000;
+    font-size: 30px;
+}
+.list-group-size {
+    width: 45%;
+}
+
+#sortable1, #sortable2 {
+    border: 1px solid #eee;
+    width: 242px;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+  }
+  #sortable1 li, #sortable2 li {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    width: 220px;
+  }
+
+/******* ends here ******/
