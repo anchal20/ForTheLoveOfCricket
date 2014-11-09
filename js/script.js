@@ -9,7 +9,7 @@ $(function() {
   });
 
 $(function(){
-    $("button").click(function(){
+    $("#button").click(function(){
         alert("calling");
         $.post("home.html");
     });

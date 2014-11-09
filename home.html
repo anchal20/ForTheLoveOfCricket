@@ -40,7 +40,11 @@
         </div>  
     </div>
     <div class="container ">
-        <h2>My Players</h2>
+        <div class="panel panel-default opacity">
+        <div class="panel-heading"><h1>My Players</h1></div>
+        <div class="panel-body">
+            <p>Here is a list of players in your team. You can change the sequence as per your wish.</p>
+        </div>
         <table class="table table-striped table-bordered table-hover" >
             <tr>
                 <th>Serial No.</th>
@@ -65,8 +69,15 @@
             </tr>
             </tbody>
         </table>
-        <div style="float:left;">
-        <h2>Playing 11</h2>
+        </div>
+        <div class="panel panel-default opacity clearfix">
+        <div class="panel-heading"><h1>My Team</h1></div>
+        <div class="panel-body">
+        <p>You can shuffle players from the "Playing 11" and "Extras" list and create your new "Playing 11" squad!</p>
+        </div>
+        <table class="table">
+        <tr><td><div style="float:left;">
+        <h3>Playing 11</h3>
         <ul id="sortable1" class="connectedSortable">
             <li class="ui-state-default"><a href="#" >Sachin Tendulkar</a></li>
             <li class="ui-state-default"><a href="#" >Virat Kohli</a></li>
@@ -74,9 +85,10 @@
             <li class="ui-state-default"><a href="#" >Yuvraj Singh</a></li>
             <li class="ui-state-default"><a href="#" >Gautam Gambhir</a></li>
         </ul>
-        </div>
+        </div></td>
+        <td>
         <div style="float:right;">
-        <h2>Extras</h2>
+        <h3>Extras</h3>
         <ul id="sortable2" class="connectedSortable" >
             <li class="ui-state-highlight">Harbajan Singh</li>
             <li class="ui-state-highlight">Item 2</li>
@@ -84,6 +96,7 @@
             <li class="ui-state-highlight">Item 4</li>
             <li class="ui-state-highlight">Item 5</li>
         </ul> 
+        </div></td></tr></table>
         </div>
     </div>
     

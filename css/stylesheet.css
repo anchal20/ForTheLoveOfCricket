@@ -15,7 +15,7 @@
     opacity: 0.45;
 }
 
-div p {
+#slogan {
     margin: 30px 40px;
     font-weight: bold;
     color: #000000;
@@ -41,5 +41,8 @@ div p {
     font-size: 1.2em;
     width: 220px;
   }
+.opacity {
+    opacity: 0.8;
+}
 
 /******* ends here ******/
