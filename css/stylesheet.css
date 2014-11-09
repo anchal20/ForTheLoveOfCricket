@@ -1,6 +1,7 @@
 /* added by anchal */
 .image {
     background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     height: auto;
     
@@ -21,9 +22,7 @@
     color: #000000;
     font-size: 30px;
 }
-.list-group-size {
-    width: 45%;
-}
+
 
 #sortable1, #sortable2 {
     border: 1px solid #eee;
@@ -44,5 +43,13 @@
 .opacity {
     opacity: 0.8;
 }
-
+@media (max-width:767px){
+    #sortable1, #sortable2 {
+        width: 120px;
+    }
+    #sortable1 li, #sortable2 li {
+        width: 100px;
+    }
+    
+}
 /******* ends here ******/
