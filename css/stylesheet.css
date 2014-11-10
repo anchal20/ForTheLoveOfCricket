@@ -49,6 +49,7 @@
     }
     #sortable1 li, #sortable2 li {
         width: 100px;
+        font-size: 14px;
     }
     
 }
